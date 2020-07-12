@@ -13,7 +13,7 @@ if not airbags.is_selected(): # Check Unchecked Checkbox
     airbags.click()
 
 time.sleep(3)
-
+time.sleep(3)
 if airbags.is_selected(): #uncheck checked checkbox
     airbags.click()
 
