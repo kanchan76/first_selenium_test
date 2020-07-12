@@ -5,6 +5,7 @@ driver = webdriver.Chrome(executable_path=r"../resources\ChromeDriver83/chromedr
 driver.maximize_window()
 driver.get("http://cookbook.seleniumacademy.com/Config.html")
 driver.find_element_by_xpath("//input[@value='ABS']").click()
+time.sleep(3)
 # driver.find_element_by_xpath("input[value='ABS']").click() by Css selector
 #check the check box
 airbags = driver.find_element_by_name("airbags")
